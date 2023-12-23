@@ -1,0 +1,302 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+h1{ font-size:1em;}
+h2{ font-size: 2.7em;}
+h3{ font-size: 2em;}
+p{font-size: 1em;}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+    background-color: rgb(48, 51, 51);
+}
+
+header .logo{
+    margin-top: 10px;
+    padding: 10px;
+    position:relative;
+    right:70px;
+    background-repeat: no-repeat;
+    background-size: 90px 50px;
+    color:white
+
+}
+header .container{
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    flex-direction: row;
+    justify-content:space-between;
+
+}
+
+header nav{
+    
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    text-decoration: none;
+    flex-direction: row;
+    padding-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+header a{
+    padding: 10px 10px;
+    text-align:center;
+    color:rgb(165, 164, 164);
+    text-decoration: none;
+    
+}
+.logo{
+    font-size:1.3em;
+}
+
+header a:hover{
+    color: rgb(219, 216, 216);
+
+}
+header .color-a:hover{
+    color: rgb(219, 216, 216);
+}
+header .color-acento:hover{
+    color: rgb(219, 216, 216);
+}
+.color-acento{
+    color:rgb(50, 134, 5)
+    
+}
+.color-a{
+    color:white;
+}
+
+#descuento1  {
+margin: 50px ;
+display: flex;
+flex-direction:row;
+justify-content: center;
+border: 2px solid #09f;
+width: 200px;
+height: 200px;
+position: absolute;
+top:10%;
+left:25% ;
+}
+
+#descuento1 a{
+    padding: 5px 20px;
+    text-align:center;
+    position: relative;
+    
+}
+#descuento1 p{
+    text-align:center;
+}
+#descuento1 h5{
+font-size: small;
+color: gray;
+text-align: center;
+padding-top: 10px;
+}
+
+#descuento1 h6{
+    text-align: center;
+    
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+#descuento2  {
+    margin: 50px ;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    border: 2px solid rgb(7, 172, 57);
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top:10%;
+    left:40% ;
+    }
+    
+    #descuento2 a{
+        padding: 5px 20px;
+        text-align:center;
+        position: relative;
+        
+    }
+    #descuento2 p{
+        text-align:center;
+    }
+    #descuento2 h5{
+    font-size: small;
+    color: gray;
+    text-align: center;
+    padding-top: 10px;
+    }
+    
+    
+    
+    #descuento2 h6{
+        text-align: center;
+        font-size: 1.2em;
+        margin-top: 20px;
+    }
+    
+
+    #descuento3  {
+        margin: 50px ;
+        display: flex;
+        flex-direction:row;
+        justify-content: center;
+        border: 2px solid rgba(238, 201, 37, 0.945);
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        top:10%;
+        left:55% ;
+        }
+        
+        #descuento3 a{
+            padding: 5px 20px;
+            text-align:center;
+            position: relative;
+            
+        }
+        #descuento3 p{
+            text-align:center;
+        }
+        #descuento3 h5{
+        font-size: small;
+        color: gray;
+        text-align: center;
+        padding-top: 10px;
+        }
+        
+        
+        
+        #descuento3 h6{
+            text-align: center;
+            font-size: 1.2em;
+            margin-top: 20px;
+        }
+
+#ventas{
+    margin-top: 250px;
+    text-align: center;
+
+}
+#ventas h6{
+    color: gray;
+}
+#ventas h3{
+    font-size: 2em;
+}
+#formularios{
+    display: flex;
+    margin: 20px ;
+    padding-left: 20px;
+}
+
+.mb-3{
+    width: 30px;
+    box-shadow: 1px;
+margin-right: 10px;
+margin-left: 12px;
+}
+#formul{
+    display: flex;
+    margin: 20px ;
+    padding-left: 25.7%;
+    
+}
+
+#formul .mb{
+    width: 20px;
+    box-shadow: 1px;
+    margin-right: 10px;
+    
+}
+#cant{
+    display: flex;
+    margin: 20px ;
+    padding-left: 25%;
+}
+#total{
+    display: flex;
+    margin: 10px ;
+    padding-left: 25%;
+    text-align:left;
+
+
+}
+#total .mb-3{
+    width: 60px;
+    box-shadow: 1px;
+    margin-right: 10px;
+    
+}
+
+#total.label{
+background-color: black;
+}
+
+#bot {
+    margin: 24%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-left: 20px;
+    border: transparent; 
+
+}
+
+#bot .btn{
+padding: 10px ;
+padding-left: 20%;
+padding-right: 20%;
+background-color: rgb(151, 207, 77);
+font-size:medium;
+
+
+
+} 
+
+
+
+
+footer{
+    margin-top: 20px;
+    padding-bottom: 5px;
+    padding-top: 20px;
+    background-color: rgb(41, 63, 92);
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+
+footer a{
+    
+    color:white;
+    text-decoration: none; 
+    padding: 50px 20px;
+    
+
+}
+
+footer a:hover{
+    color:rgb(184, 180, 180)
+}
